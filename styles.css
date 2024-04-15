@@ -1,3 +1,14 @@
+:root {
+  --clr-nutmeg: hsl(14, 45%, 36%);
+  --clr-darkRaspberry: hsl(332, 51%, 32%);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-roseWhite: hsl(330, 100%, 98%);
+  --clr-eggshell: hsl(30, 54%, 90%);
+  --clr-lightGrey: hsl(30, 18%, 87%);
+  --clr-wengeBrown: hsl(30, 10%, 34%);
+  --clr-charcoal: hsl(24, 5%, 18%);
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -21,5 +32,10 @@ input, button, textarea, select {
 
 a {
   text-decoration: none;
-  color: var(--clr-white);
+}
+
+.recipe {
+  max-width: 60%;
+  margin: 4rem auto;
+  padding: 2rem;
 }
