@@ -42,6 +42,10 @@ a {
   text-decoration: none;
 }
 
+li:not(:last-child) {
+  padding-bottom: .75rem;
+}
+
 h1, h2 {
   font-family: "Young Serif", serif;
 }
@@ -73,7 +77,8 @@ hr {
 }
 
 .recipe__title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
   color: var(--clr-charcoal);
 }
 
